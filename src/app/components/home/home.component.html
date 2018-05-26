@@ -1,0 +1,56 @@
+<div class="wrapper">
+  <div class="upper-content">
+    <div class="container">
+      <div class="title logo">
+        <!-- ADD LOGO HERE -->
+       <h3 class="header"> BECOME THE ULTIMATE ZOMBIE SLAYER</h3>
+      </div>
+      <div class="tourney-row">
+        <div class="col-4">
+          <div class="next-tourney">
+            <p class="text tourney-text">
+              Next Tourney in
+            </p>
+            <button routerLink="/register" mat-raised-button class="how-button text">
+              Register Now!
+            </button>
+          </div>
+        </div>
+        <div *ngIf="dateService" class="col-8 countdown">
+          <div class="col">
+            <div class="countdown-timer">
+              {{dateService.days}}
+            </div>
+            <div class="countdown-description">
+              DAYS
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-timer">
+              {{dateService.hours}}
+            </div>
+            <div class="countdown-description">
+              HOURS
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-timer">
+              {{dateService.minutes}}
+            </div>
+            <div class="countdown-description">
+              MINUTES
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-timer">
+              {{dateService.seconds}}
+            </div>
+            <div class="countdown-description">
+              SECONDS
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

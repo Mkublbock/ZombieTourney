@@ -1,0 +1,71 @@
+mat-toolbar {
+  background: var(--color-1);
+  color: white;
+  border-bottom: 2px solid var(--color-2);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.logo {
+  color: var(--color-5);
+  margin-right: 35px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: horrorfind;
+  letter-spacing: 0.1em;
+}
+
+.navbarLinks {
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.navbar-item {
+  margin-right: 30px;
+  font-family: horrormaster;
+}
+
+.register,
+.login {
+  font-family: horrormaster;
+}
+
+.sign-buttons {
+  display: flex;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-link:hover {
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.toolbar-device-big {
+  visibility: unset;
+}
+.menu-device-small{
+  visibility: hidden;
+}
+@media only screen and (max-width: 992px) {
+  .toolbar-device-big{
+    visibility: hidden;
+  }
+  .menu-device-small{
+    visibility: unset;
+  }
+}

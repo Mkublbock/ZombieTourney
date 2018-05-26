@@ -1,0 +1,12 @@
+.wrapper {
+  background: var(--color-1);
+  height: calc(100% - 66px);
+}
+
+.content {
+  background: url(../../../assets/zombies_07.png) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

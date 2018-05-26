@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: horrormaster;
+  letter-spacing: 0.05em;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: horrorfind;
+  src: url(./assets/fonts/horrorfind/Horrorfind.ttf);
+}
+
+@font-face {
+  font-family: horrormaster;
+  src: url(./assets/fonts/horrorfind/Horrormaster.ttf);
+}
+
+.text-align {
+  text-align: center;
+}
+
+.title {
+  font-family: 'horrorfind';
+  font-size: 30px;
+  letter-spacing: 0.2em;
+}
+
+.text {
+  font-family: 'horrormaster';
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  color: white;
+}
+
+@media (max-width: 599px) {
+  .mat-toolbar-multiple-rows {
+    min-height: 56px;
+  }
+  .wrapper{
+    height: calc(100% - 58px) !important;
+  }
+}
+
+:root {
+  --color-1: #1A1A1D;
+  --color-2: #4E4E50;
+  --color-3: #8C2B3F;
+  --color-4: #950740;
+  --color-5: #C3073F;
+}

@@ -1,0 +1,34 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <div class="menu-device-small">
+      <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+    <div class="container flex start toolbar-device-big">
+      <a routerLink="/home" class="logo title">Zombie Tourneys</a>
+      <div class="navbarLinks flex text">
+        <a routerLink="/home" routerLinkActive="active" class="navbar-item navbar-link"> Home </a>
+        <a routerLink="/tourneys" class="navbar-item navbar-link"> Tourneys </a>
+        <a routerLink="/how" class="navbar-item navbar-link"> How it Works </a>
+        <a routerLink="/rules" class="navbar-item navbar-link"> Rules </a>
+        <a routerLink="/about" class="navbar-item navbar-link"> About </a>
+      </div>
+      <div *ngIf="authService.user | async; then logout else sign" class="text sign-buttons"></div>
+      <ng-template #sign>
+        <div class="text sign-buttons">
+          <a routerLink="/login" class="navbar-link navbar-item login"> Login </a>
+          <span class="navbar-item" style="color: var(--color-5); font-family:horrorfind"> or </span>
+          <a routerLink="/register" class="navbar-link register"> Register </a>
+        </div>
+      </ng-template>
+      <ng-template #logout>
+        <div class="text sign-buttons">
+          <a style="cursor: pointer" class="navbar-link navbar-item" (click)="goToProfile()"> Profile </a>
+          <a style="cursor: pointer" class="navbar-link" (click)="authService.logout()"> Logout </a>
+        </div>
+      </ng-template>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
