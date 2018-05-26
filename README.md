@@ -2,8 +2,9 @@
 
 ## Todo
 
-# Currently online here: https://zombietourney-1.firebaseapp.com/
-* Will be updated frequently
+### Currently online here: 
+#### https://zombietourney-1.firebaseapp.com/
+#### Will be updated frequently
 
 * General Functionality
 
