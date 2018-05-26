@@ -2,6 +2,9 @@
 
 ## Todo
 
+# Currently online here: https://zombietourney-1.firebaseapp.com/
+* Will be updated frequently
+
 * General Functionality
 
 	*	Confirm Login/Register with some sort of UI confirmation ✔
