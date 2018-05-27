@@ -33,16 +33,16 @@
 	
 * Design
 
-	* About-Page
-		* Just some text on why I made this page, nothing fancy
-	* Rules-Page
+	* About-Page ✔
+		* Just some text on why I made this page, nothing fancy ✔
+  * FAQ-Page
+    * List of FAQ with angular materials expansion panel
+	* Rules-Page only on tournament site
 		* Explain general rules (gums, timers, ...)
 		* How to submit games
-	* How it Works 
-		* How a tournament is run
-		* How are the winners evaluated
-		* How to submit a games
-		* How to win a prize
+	* Contact-Page
+    * Email-address for contact
+    * Sponsoring
 	* Tourney-Page
 		* Leaderboard of top 10-25 Players
 		* What you can win (picture)
