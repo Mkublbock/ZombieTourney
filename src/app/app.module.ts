@@ -28,6 +28,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { UserprofileComponent } from './components/userprofile/userprofile.compo
     RegisterComponent,
     LoginComponent,
     PasswordResetComponent,
-    UserprofileComponent
+    UserprofileComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
