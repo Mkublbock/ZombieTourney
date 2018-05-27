@@ -28,8 +28,9 @@
 				  Limit password reset per user (somehow)
 	}
 
-	*	Implement a Login via Username OR Password
-
+	*	Implement a Login via Username OR email
+	*	Backend Protection! (Users can now only read+write their own data) ✔
+	
 * Design
 
 	* About-Page
