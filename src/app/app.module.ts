@@ -29,6 +29,8 @@ import { LoginComponent } from './components/login/login.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { AboutComponent } from './components/about/about.component';
+import { RulesComponent } from './components/rules/rules.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { AboutComponent } from './components/about/about.component';
     LoginComponent,
     PasswordResetComponent,
     UserprofileComponent,
-    AboutComponent
+    AboutComponent,
+    RulesComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

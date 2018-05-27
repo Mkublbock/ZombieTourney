@@ -6,6 +6,8 @@ import { LoginComponent } from './components/login/login.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { AboutComponent } from './components/about/about.component';
+import { RulesComponent } from './components/rules/rules.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 const routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,7 +16,9 @@ const routes = [
   { path: 'login', component: LoginComponent },
   { path: 'passwordReset', component: PasswordResetComponent },
   { path: 'user/:index', component: UserprofileComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'rules', component: RulesComponent },
+  { path: 'faq', component: FaqComponent }
 ];
 
 @NgModule({

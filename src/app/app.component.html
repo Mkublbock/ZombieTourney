@@ -10,8 +10,7 @@
       <div class="navbarLinks flex text">
         <a routerLink="/home" routerLinkActive="active" class="navbar-item navbar-link"> Home </a>
         <a routerLink="/tourneys" class="navbar-item navbar-link"> Tourneys </a>
-        <a routerLink="/how" class="navbar-item navbar-link"> How it Works </a>
-        <a routerLink="/rules" class="navbar-item navbar-link"> Rules </a>
+        <a routerLink="/faq" class="navbar-item navbar-link"> FAQ </a>
         <a routerLink="/about" class="navbar-item navbar-link"> About </a>
       </div>
       <div *ngIf="authService.user | async; then logout else sign" class="text sign-buttons"></div>
